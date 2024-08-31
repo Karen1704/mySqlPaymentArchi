@@ -6,4 +6,4 @@ const pool = mysql.createPool({
     password: '',
     database: 'paymentarchi'
 });
-
+module.exports = pool.promise();
